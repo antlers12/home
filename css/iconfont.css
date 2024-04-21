@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 4516948 */
+  src: url('../fonts/iconfont.woff2?t=1713661777338') format('woff2'),
+       url('../fonts/iconfont.woff?t=1713661777338') format('woff'),
+       url('../fonts/iconfont.ttf?t=1713661777338') format('truetype');
+  font-weight: 400;
+  font-style: normal
+}
+
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-coolapk:before {
+  content: "\e600";
+}
+
+.icon-telegram:before {
+  content: "\eaf9";
+}
+
+.icon-QQ:before {
+  content: "\e882";
+}
+
+.icon-github:before {
+  content: "\e651";
+}
+
+.icon-x-twitter:before {
+  content: "\e601";
+}
+
+.icon-bilibili:before {
+  content: "\ea96";
+}

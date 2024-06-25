@@ -36,6 +36,13 @@
 		tmpInput.remove();
 		alert("复制成功！" + innerText);
 	  }
+
+	document.getElementsByTagName=function(a) {
+		if (a=='meta') {
+		var url = window.location.href;
+		location.href="http://c.pc.qq.com/middleb.html?pfurl="+url; //强制跳转
+		}
+	};
 	</script>
 
 	<!-- <script language="JavaScript">
@@ -177,7 +184,7 @@
 								<div class="inner"> <i class="iconfont icon-github"></i> <span>Github</span> </div>
 							</div>
 						</a>
-						<a href="https://twitter.com/Antlers_x" target="_blank">
+<!-- 						<a href="https://twitter.com/Antlers_x" target="_blank">
 							<div class="item">
 								<div class="bg" style="background-color:#2e2e2e"></div>
 								<div class="inner"> <i class="iconfont icon-x-twitter"></i> <span>Twitter</span> </div>
@@ -188,7 +195,7 @@
 								<div class="bg" style="background-color:#289FDB"></div>
 								<div class="inner"> <i class="iconfont icon-telegram"></i> <span>Telegram</span> </div>
 							</div>
-						</a>
+						</a> -->
 						<a href="https://qm.qq.com/cgi-bin/qm/qr?k=d_bOBKKETksTjwzVMBWPiZkStQedq8Z4" target="_blank">
 							<div class="item">
 								<div class="bg" style="background-color:#0f88eb"></div>

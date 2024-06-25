@@ -23,6 +23,20 @@
 	<!-- Cloudflare Web Analytics -->
 	<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "702a3cff672844449c056eb5946f0c19"}'></script>
 	<!-- End Cloudflare Web Analytics -->
+	
+	<script>
+		// 复制内容
+	copyInnerTextOfCell = (event) => {
+		let innerText = event.target.innerText;
+		var tmpInput = document.createElement("input");
+		document.body.appendChild(tmpInput);
+		tmpInput.value = innerText;
+		tmpInput.select();
+		document.execCommand("cut"); // copy
+		tmpInput.remove();
+		alert("复制成功！" + innerText);
+	  }
+	</script>
 
 	<!-- <script language="JavaScript">
 		// 禁止页面选择以及鼠标右键
@@ -95,13 +109,15 @@
 							<img class="avatar" src="images/avatar.png">
 							<P style="padding-top:1em;">✨在这里有一只蓝白色的紫瞳海鲜龙龙！️</p>
 							<br>
-							<p>💻热爱计算机互联网，是安全圈里的职业炮灰。</p>
+							<p>💻热爱计算机互联网，喜欢研究各种奇奇怪怪的东西！</p>
 							<br>
 							<p>
 								📍 杭州 &nbsp|&nbsp 💡 INFJ-T &nbsp|&nbsp 📀R&B重度爱好者
 								<br> 
-								🌱 男孩子 &nbsp|&nbsp 📸 会拍照哦，欢迎大家来约拍！
+								🌱 男孩子 &nbsp|&nbsp 📸 会拍照哦，欢迎大家来约拍！								
 							</p>
+							<br>
+							<p>🐧QQ：<span onclick="copyInnerTextOfCell(event)">2190024737</span></p>
 							<br>
 							<p>📝可公开情报：这只海鲜龙无聊的时候会rua自己的尾巴玩！</p>
 							<div class="chatbox">
